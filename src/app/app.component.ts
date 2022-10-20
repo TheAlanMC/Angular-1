@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'tercer_parcial';
+
+  onValueChange(value: any) {
+    console.log(value.target.value);
+
+
+  }
+
+
 }
